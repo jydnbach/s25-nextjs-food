@@ -38,7 +38,7 @@ export default function ImagePicker({ label, name }) {
         <div className={classes.preview}>
           {!pickedImage && <p>No image picked yet.</p>}
           {pickedImage && (
-            <Image src={pickedImage} alt="image selected by user" />
+            <Image src={pickedImage} alt="image selected by user" fill />
           )}
         </div>
         <input

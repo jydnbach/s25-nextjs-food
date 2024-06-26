@@ -2,7 +2,7 @@
 
 import { useFormStatus } from 'react-dom';
 
-export function MealsFormSubmit() {
+export default function MealsFormSubmit() {
   const { pending } = useFormStatus();
 
   return (
